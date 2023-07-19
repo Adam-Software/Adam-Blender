@@ -374,10 +374,10 @@ def register():
     
 if __name__ == "__main__":
    
-   client = Client(("ws://localhost:8000")) #old
+   #client = Client(("ws://localhost:8000")) #old
    #client = Client(("ws://192.168.1.7:8000/adam-2.6/off-board")) #new 
    #client = Client(("ws://192.168.50.10:8002/adam-2.7/off-board")) #new adam 2.7 10.254.254.120
  
-   #client = Client(("ws://10.254.254.120:6000/adam-2.6/off-board"))
+   client = Client(("ws://10.254.254.120:8000/adam-2.7/off-board"))
    
    register()
